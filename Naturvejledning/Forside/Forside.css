@@ -1,0 +1,54 @@
+/* Baggrundsfarve */
+.topnav {
+  background-color: #FFFFFF;
+  overflow: hidden;
+  border-bottom: 2px solid #194179
+}
+
+/* Ændre linkene inde i baren */
+.topnav a {
+  float: left;
+  color: #194179;
+  text-align: center;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+/* Ændre farven når du holder musen over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Ændre farven når du holder musen over */
+.topnav a.active {
+  background-color: #FFFFFF;
+  color: #194179;
+  font-family: "allotrope";
+  font-size: 98px;
+  margin: 0px 0px 0px 30px;
+}
+
+/* Fjern kanten */
+body {
+  margin:0;
+}
+
+.topnav a.menu {
+  margin: 0px;
+  padding: 0px 120px;
+}
+
+.topnav a.menu1 {
+  margin: 0px;
+  padding: 0px 100px;
+  border-left: 2px solid #194179;
+}
+
+.menupunkter {
+  float: right;
+  padding: 90px 0px 12px 0px;
+  font-family: "allotrope";
+}
+
+/* Spaver mellem menupunkterne */
