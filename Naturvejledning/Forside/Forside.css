@@ -1,4 +1,4 @@
-/* Baggrundsfarve */
+
 .topnav {
   background-color: #FFFFFF;
   overflow: hidden;
@@ -10,7 +10,6 @@
   overflow: hidden;
 }
 
-/* Ændre linkene inde i baren */
 .topnav a {
   float: left;
   color: #194179;
@@ -19,13 +18,11 @@
   font-size: 32px;
 }
 
-/* Ændre farven når du holder musen over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Ændre farven når du holder musen over */
 .topnav a.active {
   background-color: #FFFFFF;
   color: #194179;
@@ -35,7 +32,6 @@
   margin: 0px 0px 0px 30px;
 }
 
-/* Fjern kanten */
 body {
   margin:0;
 }
@@ -62,8 +58,6 @@ body {
   overflow: hidden;
   white-space: nowrap;
 }
-
-/* Menubar på scroll */
 
 .scrollbar {
   background-color: #FFFFFF;
@@ -98,11 +92,24 @@ body {
     border-left: 2px solid #194179;
 }
 
-.Brødtekst {
-  max-width: 700px;
+.Broedtekst {
+  max-width: 100%;
   font-family: "allotrope";
   font-weight: 400;
   margin-left: 35px;
+}
+
+.broedtekst1 {
+    border-right: 1px solid #194179;
+    max-width: 50%;
+    padding-right: 75px;
+    padding-left: 22px;
+}
+
+.broedtekst2 {
+    max-width: 75%;
+    padding-right: 75px;
+    padding-left: 20px;
 }
 
 .Overskrift {
@@ -110,6 +117,35 @@ body {
   color: #194179;
   font-weight: 600;
   margin-left: 35px;
+  padding-left: 20px;
+}
+
+.kontakt {
+  font-family: "allotrope";
+  color: #194179;
+  font-weight: 600;
+  margin-left: 35px;
+  float: right;
+  padding-right: 33%;
+  margin-top: 0;
+}
+
+.kontaktoplysning {
+  float: right;
+  width: 41.1%;
+}
+
+.navn {
+  padding-bottom: 20px;
+  font-family: "allotrope";
+  font-size: 24px;
+}
+
+.billede {
+  float: left;
+  padding-right: 20px;
+  padding-top: 8px;
+  border-radius: 45%;
 }
 
 .slideshow-container {
@@ -228,6 +264,10 @@ body {
   margin: auto;
 }
 
+.mellemrum {
+  padding: 15px;
+}
+
 hr.solid {
   border-top: 5px solid #707070;
 }
@@ -245,12 +285,129 @@ hr.solid {
     filter:contrast(50%) brightness(150%) blur(2px);
   }
 
-.row1{
-
-}
-
 .column1{
     display:inline-block;
     margin: auto;
     padding:  15px 35px;
+}
+
+.billedetext {
+  font-size: 28px;
+  font-family: "allotrope";
+  color: #194179;
+  font-weight: 600;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.bund {
+  background-color: #194179;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.menubund1 {
+  float: right;
+  padding: 0px 25px;
+  color: #FFFFFF;
+  font-family: "allotrope";
+  background-color: #194179;
+  padding-top: 60px;
+}
+
+.menubund2 {
+  float: left;
+  padding-left: 25px;
+  color: #FFFFFF;
+  font-family: "allotrope";
+  font-size: 55px;
+  background-color: #194179;
+}
+
+.logo {
+  color: #194179;
+}
+
+.knap-box {
+  width: 50%;
+  background: none;
+  overflow-y: auto;
+  border-left: 2px solid #194179;
+  border-right: 2px solid #194179;
+  border-top: 2px solid #194179;
+}
+
+.knap-box > a {
+  width: 20%;
+  height: 15%;
+  float: left;
+  background: white;
+  margin: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  border-radius: 0%;
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.knap-box1 a:hover {
+  background: grey;
+}
+
+.knap-box1 {
+  width: 50%;
+  background: none;
+  overflow-y: auto;
+  border-left: 2px solid #194179;
+  border-right: 2px solid #194179;
+  border-bottom: 2px solid #194179;
+  text-align: center;
+}
+
+.knap-box1 > a {
+  width: 20%;
+  height: 15%;
+  float: left;
+  background: #194179;
+  margin: 0px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 0%;
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+}
+
+.knap {
+  margin-top: 50px;
+  font-family: "allotrope";
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.knap1 {
+  margin-top: 50px;
+  font-family: "allotrope";
+  color: #194179;
+  font-weight: 600;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.menu-box {
+  padding-left: 55px;
+  max-width: 100%
+  border: 2px solid #194179;
+  margin: auto;
+}
+
+.border {
+  transform: scale(100%);
 }
